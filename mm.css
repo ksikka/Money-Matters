@@ -1,0 +1,134 @@
+@font-face {font-family: Delicious; src: url('Verdana.ttf'); } 
+
+body{padding:0;margin:0;font-family:Delicious,sans-serif}
+div {
+//border: solid 1px white;
+font-weight:bold;
+}
+
+#container {
+width:950px;
+margin:10px;
+position:relative;
+}
+
+#a {
+position:absolute;
+height: 130px;
+width:950px;
+//font-weight:normal;
+}
+
+#a #heading {
+text-align:right;
+margin-right:38%;
+}
+
+#a #heading h1 { font-size: 34pt;margin-bottom:3px }
+#a #heading h2 { font-size: 13.5pt;margin-top:0px }
+
+#b {
+position:absolute;
+top:130px;
+height:360px;
+width:605px;
+padding:35px 0 35px 35px;
+}
+
+#b #tuitioninput {
+height:180px;
+padding-top:10px;
+padding-right:70px;
+padding-left:10px;
+font-size:13pt;
+margin-bottom:10px;
+}
+
+#b #tuitioninput #labels
+{
+	margin-left:60px;
+	width:430px;
+	text-align:right;
+	line-height:2.1em;
+}
+
+
+#b input { margin-left:1em; margin-bottom:1.4em; }
+
+#b #summary {
+height:120px;
+padding:20px;
+padding-left:0px;
+width:300px;
+float:left;
+text-align:right;
+font-size:16pt;
+}
+
+.money {
+color:darkred;
+font-size:20pt;
+}
+
+#b #today {
+float:right;
+}
+
+#c {
+position:absolute;
+top:130px;
+padding:30px;
+left:640px;
+height:360px;
+width:250px;
+}
+
+#c .progressbox {
+margin-bottom:30px;
+margin-top:0px;
+}
+
+
+.progressbox {
+width:225px;
+height:132px;
+padding:20px;
+//text-align:center;
+}
+
+.progressBar{
+	width:216px;
+	height:41px;
+margin-bottom:15px;
+	background:url(js/progress_bar/bg_bar.gif) no-repeat 0 0;
+	position:relative;
+}
+.progressBar span{
+	position:absolute;
+	display:block;
+	width:200px;
+	height:25px;
+	background:url(js/progress_bar/bar.gif) no-repeat 0 0;
+	top:8px;
+	left:8px;
+	overflow:hidden;
+	text-indent:-8000px;
+}
+.progressBar em{
+	position:absolute;
+	display:block;
+	width:200px;
+	height:25px;
+	background:url(js/progress_bar/bg_cover.gif) repeat-x 0 0;
+	top:0;
+}
+#footer {
+	font-size:8pt;
+	padding-top:60px;
+	padding-right:25px;
+	text-align:right;
+	position: relative;
+	//margin-top: 600px; /* negative value of footer height */
+	height: 90px;
+	clear:both;
+}
